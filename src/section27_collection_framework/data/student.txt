@@ -1,0 +1,4 @@
+name=pranay
+age=22
+isSingle=false
+isGreenFlag=true

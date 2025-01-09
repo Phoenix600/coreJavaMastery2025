@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>App.Properties</comment>
+<entry key="password">root</entry>
+<entry key="port">8080</entry>
+<entry key="vcs">git</entry>
+<entry key="db">mysql</entry>
+<entry key="username">root</entry>
+</properties>

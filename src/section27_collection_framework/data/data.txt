@@ -1,0 +1,7 @@
+#App.Properties
+#Wed Jan 01 10:23:30 PST 2025
+db=mysql
+password=root
+port=8080
+username=root
+vcs=git
