@@ -13,6 +13,8 @@ public class Example1 {
     {
         // This is used for printing message on console / terminal
         System.out.println("Hello 2025 Year");
+        System.out.println(args[0]);
+        System.out.println(args[1]);
     }
 }
 
