@@ -11,10 +11,10 @@ public class Example4 {
         byte x1;
         short x2;
         int x3;
-        long x4;
+        long x4;  // 1212
 
-        float x5;
-        double x6;
+        float x5;   // 12.1212134
+        double x6;  // 12.1212121212121212121
 
         char x7;
 

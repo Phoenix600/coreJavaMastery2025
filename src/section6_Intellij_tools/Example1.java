@@ -150,7 +150,7 @@ public class Example1 {
 //        System.out.println("First Lesson On Debugging");
 //        mutateVariable(false, true, false, true, true, true);
 //        displaySomeNumbers();
-//        displaySum(12,13,14);
+        displaySum(12,13,14);
         // end of main method
 
     }

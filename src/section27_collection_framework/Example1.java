@@ -71,8 +71,8 @@ public class Example1 {
         }
 
         //  Array Representation of collection
-        Integer[] numsArr = (Integer[]) nums1.toArray();
-        System.out.println( "Array Representation Of Collection : "+Arrays.deepToString(numsArr));
+//        Integer[] numsArr = (Integer[]) nums1.toArray();
+//        System.out.println( "Array Representation Of Collection : "+Arrays.deepToString(numsArr));
 
         // Forward Iteration
         Iterator<Integer> iterator = arrayList1.iterator();
