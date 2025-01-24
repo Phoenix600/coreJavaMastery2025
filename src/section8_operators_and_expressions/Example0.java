@@ -2,6 +2,7 @@ package section8_operators_and_expressions;
 
 public class Example0 {
     public static void main(String[] args) {
+
         int num1 = 12;
         int num2 = 5;
 

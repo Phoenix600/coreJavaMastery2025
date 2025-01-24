@@ -72,6 +72,13 @@ public class Example1 {
 
         //  Array Representation of collection
 //        Integer[] numsArr = (Integer[]) nums1.toArray();
+        Integer[] numsArr = new Integer[nums1.size()];
+        int i =0;
+        for(Object o : nums1.toArray())
+        {
+            numsArr[i++] = (Integer) o;
+        }
+
 //        System.out.println( "Array Representation Of Collection : "+Arrays.deepToString(numsArr));
 
         // Forward Iteration

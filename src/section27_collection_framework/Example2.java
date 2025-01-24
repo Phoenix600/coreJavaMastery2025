@@ -44,5 +44,12 @@ public class Example2 {
         System.out.println("Adding Another Linked List At 2nd Index : " + lnLinkedList1);
 
 
+        Integer[] numsArr = new Integer[linkedList1.size()];
+        int i = 0;
+        for(Object o : lnLinkedList1.toArray())
+        {
+            numsArr[i++] =  (Integer) o;
+        }
+
     }
 }

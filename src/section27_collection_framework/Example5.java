@@ -15,6 +15,7 @@ import java.util.List;
  */
 public class Example5 {
     public static void main(String[] args) {
+
         HashSet<Integer> hashSet  = new HashSet<>();
         HashSet<Integer> hashSet1 = new HashSet<>(10);
         HashSet<Integer> hashSet2 = new HashSet<>(100, 0.5f); // 0.75 default
@@ -33,7 +34,6 @@ public class Example5 {
 
         // Minimum 25% space will be wasted when working with HashSet
         //  When you insertion and deletion in constant time, then you should use HashSet
-
 
     }
 }
