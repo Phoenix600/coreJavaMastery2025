@@ -27,17 +27,18 @@ public class Example5 {
         Scanner Input = new Scanner(System.in);
 
         System.out.println("Enter the length of side a : ");
-        a = Input.nextInt();
+        a = Input.nextFloat();
 
         System.out.println("Enter the length of side b : ");
-        b = Input.nextInt();
+        b = Input.nextFloat();
 
         System.out.println("Enter the length of side c : ");
-        c = Input.nextInt();
+        c = Input.nextFloat();
 
         s =  (a + b + c) / 2f;
         area = (float) Math.sqrt(s*(s-a)*(s-b)*(s-c));
         System.out.println("Area Of Triangle : " + area);
+
 
     }
 }
