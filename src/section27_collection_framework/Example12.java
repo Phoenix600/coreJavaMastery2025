@@ -5,6 +5,7 @@ import java.util.Hashtable;
 import java.util.function.Function;
 
 public class Example12 {
+
     public static void main(String[] args) {
 
         Hashtable<Integer,String> hTable = new Hashtable<>();
