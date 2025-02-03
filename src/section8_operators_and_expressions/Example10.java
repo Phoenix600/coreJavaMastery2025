@@ -1,31 +1,43 @@
-/*
- *
- *  Copyright 2002-2018 the original author or authors.
- *
- *  Licensed under the Apache License, Version 2.0 (the "License");
- *  you may not use this file except in compliance with the License.
- *  You may obtain a copy of the License at
- *
- *  https://www.apache.org/licenses/LICENSE-2.0
- *
- *  Unless required by applicable law or agreed to in writing, software
- *  distributed under the License is distributed on an "AS IS" BASIS,
- *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- *  See the License for the specific language governing permissions and
- *  limitations under the License.
- *
- */
-
 package section8_operators_and_expressions;
 
-/**
- * File: Example10
- * Author: PranayWin
- * Created At : 28 Jan 2025
- * Operators In Java
- */
+// Example On Bitwise Operators-1
 public class Example10 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
+        int x = 10;
+        // x  = 0b1010;
+        int y = 6;
+        int z;
 
+        // 1010
+        // 0110
+        // 0010
+
+        z = x & y;
+        System.out.println(z);
+
+        z = x | y;
+        System.out.println(z);
+
+        z = x ^ y;
+        System.out.println(z);
+
+        int result;
+
+        result = x;
+        System.out.println("Bit Pattern : " + Integer.toBinaryString(result));
+
+        result = ~x;
+        System.out.println("Bit Pattern : " + Integer.toBinaryString(result));
+
+        result = x << 1;
+        System.out.println("Result : " + result);
+
+        result = y >> 1;
+        System.out.println("Result : " + result);
+
+
+
+        
     }
 }

@@ -45,8 +45,6 @@ public class Example14 {
             System.out.println(s);
         }
 
-
-
         fis = new FileInputStream("C:\\Users\\PranayWin\\Downloads\\coreJavaMastery2025\\src\\collection_framework\\data\\nums.txt");
 
         bytes = new byte[fis.available()];

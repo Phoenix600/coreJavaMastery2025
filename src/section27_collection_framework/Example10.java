@@ -11,10 +11,17 @@ public class Example10 {
         LinkedHashMap<Integer, String > lHashMap = new LinkedHashMap<>(initialCapacity,0.75f,true)
         {
             @Override
-            protected boolean removeEldestEntry(Map.Entry<Integer, String> eldest) {
+            protected boolean removeEldestEntry(Map.Entry<Integer,String> eldest) {
+
                 return this.size() > initialCapacity;
             }
         };
+//        {
+//            @Override
+//            protected boolean removeEldestEntry(Map.Entry<Integer, String> eldest) {
+//                return this.size() > initialCapacity;
+//            }
+//        };
 
         lHashMap.put(1,"A");
         lHashMap.put(2,"B");

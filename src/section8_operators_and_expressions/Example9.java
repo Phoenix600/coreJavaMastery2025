@@ -2,8 +2,9 @@ package section8_operators_and_expressions;
 
 public class Example9 {
     public static void main(String[] args) {
-        int x = 5;
-        int y = 4;
+
+        int x = 5; // 6 7
+        int y = 4; //5 6
         int a;
         int b;
 

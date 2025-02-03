@@ -18,7 +18,6 @@ public class Example15 {
         // print bitset
         System.out.println(bitSet1);
 
-
         BitSet bitSet2 = new BitSet();
 
         bitSet2.set(0);
