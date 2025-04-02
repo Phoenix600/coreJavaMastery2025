@@ -146,11 +146,11 @@ public class Example1 {
     public static void main(String[] args)
     {
         //  Start of main method
-//        System.out.println("This will be printed");
-//        System.out.println("First Lesson On Debugging");
+	    System.out.println("This will be printed");
+        System.out.println("First Lesson On Debugging");
         mutateVariable(false, true, false, true, true, true);
-//        displaySomeNumbers();
-//        displaySum(12,13,14);
+        displaySomeNumbers();
+        displaySum(12,13,14);
         // end of main method
 
     }

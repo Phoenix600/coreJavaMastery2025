@@ -43,6 +43,7 @@ public class Example1
 		System.out.println("Function: " + x);
 		x++;
 		System.out.println("Function : " + x);
+		return;
 	}
 	
 	// static method can call static methods only
