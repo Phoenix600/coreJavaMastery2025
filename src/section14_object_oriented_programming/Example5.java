@@ -64,12 +64,16 @@ class MyRectangle
 
 public class Example5 {
     public static void main(String[] args) {
-        MyRectangle rectangle = new MyRectangle();
+        RectangleTest rectangle = new RectangleTest();
 
         rectangle.setBreadth(10);
         rectangle.setLength(20);
 
         System.out.println("Area : " + rectangle.area());
         System.out.println("Perimeter : " + rectangle.perimeter());
+	    
+	    System.out.println("Length : " + rectangle.getLength());
+	    System.out.println("Breadth : " + rectangle.getBreadth());
+		
     }
 }

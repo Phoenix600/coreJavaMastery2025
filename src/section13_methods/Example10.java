@@ -15,6 +15,7 @@ public class Example10 {
 	 // ... means combine all arguments into array
 	static void show(int...x)
 	{
+		
 		for(int target : x)
 		{
 			System.out.println(target);

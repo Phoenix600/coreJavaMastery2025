@@ -18,7 +18,6 @@ public class Example13
 		{
 			s = s + target;
 		}
-		
 		return s;
 	}
 	

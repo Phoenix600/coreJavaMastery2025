@@ -32,6 +32,7 @@ public class Example5
 	public static void main(String[] args) {
 		
 		int result = gcd(45,115);
+		
 		System.out.println("GCD of 45 And 115 : " + result);
 		
 	}
