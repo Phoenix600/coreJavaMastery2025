@@ -35,7 +35,7 @@ class Person
 	
 	public String toString()
 	{
-		return String.format("Name : %s\nAge : %d",name,age);
+		return String.format("Name : %s\nAge : %d \n",name,age);
 	}
 }
 

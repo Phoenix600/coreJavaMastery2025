@@ -64,7 +64,7 @@ class MyRectangle
 
 public class Example5 {
     public static void main(String[] args) {
-        RectangleTest rectangle = new RectangleTest();
+        MyRectangle rectangle = new MyRectangle();
 
         rectangle.setBreadth(10);
         rectangle.setLength(20);
