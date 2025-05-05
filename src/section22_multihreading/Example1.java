@@ -27,5 +27,6 @@ package section22_multihreading;
  *            machines.
  *
  */
-public class Example1 {
+public class Example1
+{
 }
