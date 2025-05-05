@@ -12,7 +12,17 @@ package section21_exception_handling;
  *              /          \
  *
  */
+
+class InvalidAgeException extends RuntimeException
+{
+    public InvalidAgeException(String message)
+    {
+        super(message);
+    }
+}
+
 public class Example7 {
+    
     public static void main(String[] args)
     {
 
