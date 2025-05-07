@@ -27,5 +27,51 @@ package section22_multihreading;
  *            machines.
  *
  */
-public class Example1 {
+
+class MyThread1 extends Thread
+{
+	public void run()
+	{
+		int lnMax = 100;
+		int count = 0;
+		while (count <= lnMax)
+		{
+			System.out.println("Hello " + count);
+			count++;
+		}
+	}
+}
+
+class MyThread2 extends Thread
+{
+	public void run()
+	{
+		int lnMax = 100;
+		int count = 0;
+		while (count <= lnMax)
+		{
+			System.out.println("World " + count);
+			count++;
+		}
+	}
+}
+
+public class Example1
+{
+	public static void main(String[] args) {
+		
+		MyThread1 thread1 = new MyThread1();
+		MyThread2 thread2 = new MyThread2();
+		
+		thread1.start();
+		thread2.start();
+		
+		int lnMax = 100;
+		int count = 0;
+		while (count <= lnMax)
+		{
+			System.out.println("Java " + count);
+			count++;
+		}
+	}
 }
