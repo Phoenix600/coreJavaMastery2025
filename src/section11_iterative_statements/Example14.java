@@ -23,7 +23,6 @@ public class Example14
 		System.out.println("Enter The Integer Number : ");
 		number = Input.nextInt();
 		
-		
 		var rem = 0;
 		while (number != 0)
 		{
@@ -68,7 +67,6 @@ public class Example14
 			
 			number = number/10;
 		}
-		
 		
 		System.out.println("Result : " + res);
 		
