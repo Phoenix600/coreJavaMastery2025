@@ -1,5 +1,12 @@
 package section26_generic_classes;
 
+/**
+ * Bounds Of Generic
+ * 1. No Parameters
+ * 2. Multiple Parameters
+ * 3. SubTypes
+ * 4. Bounded Types
+ */
 class MyArray<T> {
     private T[] data = (T[]) new Object[10];
 
@@ -34,6 +41,7 @@ public class Example5 {
         intArray.append(30);
         intArray.display();
 
+        // 1. No Parameters
         // If Parameter are not given, it can hold any type of object
         System.out.println("If No Generic Parameter Are given");
         MyArray array = new MyArray();
