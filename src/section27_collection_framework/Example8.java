@@ -12,7 +12,7 @@ public class Example8 {
 
         TreeMap<Integer, String> treeMap = new TreeMap<>();
 
-        treeMap.put(1,"Pranay Ramteke");
+        treeMap.put(1,"Priyanka Khan");
         treeMap.put(2,"Rekha Bachchan");
         treeMap.put(3,"Aishwarya Oberoi");
         treeMap.put(4,"Katrina Khan");
