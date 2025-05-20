@@ -8,7 +8,8 @@ package section26_generic_classes;
  * 4. Bounded Types
  */
 class MyArray<T> {
-    private T[] data = (T[]) new Object[10];
+ 
+	private T[] data = (T[]) new Object[10];
 
     public int len = 0;
 
