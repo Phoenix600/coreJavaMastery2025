@@ -33,5 +33,8 @@ public class Example1 {
 		
 		MyTest1 t2 = new MyTest1();
 		t2.show();
+
+		System.out.println(MyTest1.x);
+		MyTest1.display();
 	}
 }

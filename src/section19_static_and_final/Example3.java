@@ -42,6 +42,6 @@ public class Example3 {
 		
 		System.out.println("Main Class Function");
 		Class  MyStaticBlock1 =  Class.forName("section19_static_and_final.MyStaticBlockTest");
-		
+
 	}
 }

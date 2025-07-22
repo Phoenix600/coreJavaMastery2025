@@ -17,7 +17,7 @@ public class Example6
 		
 		
 		final float PI = 3.141f;
-		// PI = 3.100012f;
+//		 PI = 3.100012f;
 		System.out.println("PI : " + PI);
 	}
 }
