@@ -8,7 +8,7 @@ public class Example4 {
         int r;
 
         try {
-            r = A[0] / A[1];
+            r = A[2] / A[3];
             System.out.println(r);
             System.out.println(A[10]);
         }
