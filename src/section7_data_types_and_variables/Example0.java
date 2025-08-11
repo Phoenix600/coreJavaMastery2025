@@ -55,6 +55,5 @@ public class Example0 {
 
         // Can You Print All Variables ?
 //        System.out.println(lbNum1);
-
     }
 }
